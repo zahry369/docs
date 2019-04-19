@@ -147,7 +147,7 @@ $form->addRadioList('gender', 'Gender:', $sex);
 
 // to list options within 1 line
 $form->addRadioList('gender', 'Gender:', $sex)
-	->getSeparatorPrototype()->setName(null);
+	->getSeparatorPrototype()->setName('');
 \--
 
 
